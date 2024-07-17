@@ -1,29 +1,5 @@
-# vue-project
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+A：A是Added的缩写。表示这个文件是新增的，它在本地仓库中不存在，但是已经被添加到暂存区，等待提交。
+U：U是Untracked的缩写。表示这个文件是未跟踪的，它在本地仓库中不存在，也没有被添加到暂存区，需要你手动添加或忽略。
+M：M是Modified的缩写。表示这个文件是被修改的，它在本地仓库中存在，但是已经被修改。
+D：D是Deleted的缩写。表示这个文件是被删除的，它在本地仓库中存在，但是已经被删除。
+1,M：表示这个文件有一个错误，后面的字母代表该文件的状态。
