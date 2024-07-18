@@ -33,3 +33,22 @@ D：D是Deleted的缩写。表示这个文件是被删除的，它在本地仓�
     .prevent 阻止默认事件
     .once 事件只被触发一次
     .enter 回车按键触发
+### 数组变化侦测
+     变更方法:数组变化被检测到UI自动更新
+          push()
+          pop()
+          shift()
+          unshift()
+          splice()
+          sort()
+          reverse()
+
+     替换一个数组:数组变化被检测不会UI自动更新
+          filter()
+          concat()
+          slice()
+     注意:this.names =this.names.concat(['火龙果'])这种样式既可数组变化又可引起UI变化
+### 计算属性(computed)与方法(mehods)区别
+     计算属性:计算属性值会基于响应式依赖被缓存.一个计算属性仅会在其响应依赖更新时才会重新计算
+     方法:方法调用总是会在重渲染发生时再次执行函数
+     
