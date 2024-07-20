@@ -1,4 +1,5 @@
 <script setup>
+//step 1.引入组件
 import Base from "./components/Base.vue"
 import V_IF from "./components/V_IF.vue"
 import V_BIND from "./components/V_BIND.vue"
@@ -8,17 +9,23 @@ import ArrayList from "./components/ArrayList.vue"
 import Calculation from "./components/Calculation.vue"
 import ClassDemo from "./components/ClassDemo.vue"
 import StyleDemo from "./components/StyleDemo.vue"
+import WatchDemo from "./components/WatchDemo.vue"
+import V_MODEL from "./components/V_MODEL.vue"
+import Ref from "./components/Ref.vue"
+
 </script>
-4
 <template>
+
   <!-- <Base /> -->
   <!-- <V_IF /> -->
   <!-- <V_BIND /> -->
   <!-- <V_FOR /> -->
   <!-- <V_ON /> -->
-  <!-- <ArrayList /> -->
-  <Calculation />
-  <ClassDemo />
-  <StyleDemo />
-
+  <ArrayList />
+  <!-- <Calculation /> -->
+  <!-- <ClassDemo /> -->
+  <!-- <StyleDemo /> -->
+  <!-- <WatchDemo /> -->
+  <!-- <V_MODEL /> -->
+  <!-- <Ref /> -->
 </template>
