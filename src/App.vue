@@ -12,7 +12,7 @@ import StyleDemo from "./components/StyleDemo.vue"
 import WatchDemo from "./components/WatchDemo.vue"
 import V_MODEL from "./components/V_MODEL.vue"
 import Ref from "./components/Ref.vue"
-
+import Parent from "./components/Parent.vue"
 </script>
 <template>
 
@@ -21,11 +21,12 @@ import Ref from "./components/Ref.vue"
   <!-- <V_BIND /> -->
   <!-- <V_FOR /> -->
   <!-- <V_ON /> -->
-  <ArrayList />
+  <!-- <ArrayList /> -->
   <!-- <Calculation /> -->
   <!-- <ClassDemo /> -->
   <!-- <StyleDemo /> -->
   <!-- <WatchDemo /> -->
   <!-- <V_MODEL /> -->
   <!-- <Ref /> -->
+   <Parent />
 </template>
